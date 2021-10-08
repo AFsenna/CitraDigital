@@ -142,7 +142,7 @@ metode = proses(gambar)
 #Untuk function R,g,b not null dan gray silahkan jalankan 1 1
 # agar tidak error
 
-#nilai R tidak null (hapus """ line 137 & 143 untuk menjalankannya)
+#nilai R tidak null (hapus """ line 146 & 153 untuk menjalankannya)
 """
 output = "gambarMerah.jpg"
 imgM = Image.open(gambar)
@@ -152,7 +152,7 @@ imgM.save(output)
 imgM.show()
 """
 
-#nilai G tidak null (hapus """ line 146 & 152 untuk menjalankannya)
+#nilai G tidak null (hapus """ line 155 & 163 untuk menjalankannya)
 """
 output = "gambarHijau.jpg"
 imgH = Image.open(gambar)
@@ -162,7 +162,7 @@ imgH.save(output)
 imgH.show()
 """
 
-#nilai B tidak null (hapus """ line 155 & 161 untuk menjalankannya)
+#nilai B tidak null (hapus """ line 166 & 173 untuk menjalankannya)
 """  
 output = "gambarBiru.jpg"
 imgB = Image.open(gambar)
@@ -172,7 +172,7 @@ imgB.save(output)
 imgB.show()
 """
 
-#abu-abu (hapus """ line 164 & 170 untuk menjalankannya)
+#abu-abu (hapus """ line 176 & 183 untuk menjalankannya)
 """
 output = "gambarGray.jpg"
 imgG = Image.open(gambar)
